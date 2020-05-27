@@ -1,0 +1,107 @@
+﻿* {
+ 
+  box-sizing: border-box;     /* svi elementi su ograniceni na velicinu koju mi odredimo  */
+   margin:0;     /* margina nema da bismo lakse redjali elemente jedan uz drugi*/
+   margin:auto;  /* da bi sav sadrzaj bio centriran */
+  }
+
+body{
+width:90%;
+background-color:#ccefff;
+}
+.naslov
+ {
+  background-color: white;
+  height:130px;
+  border:2px solid #c0e0f0;
+  border-bottom:5px solid #ccc;
+  border-right:3px solid #ccc;
+}
+
+.naslov h1{
+	margin:13px;
+	padding-left:50px;
+	background-image:url('djura.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+	
+
+.meni{
+ 
+  overflow:hidden;     /* bez ovog reda ne bi cela linija bila obojena zeleno */
+  background-color:#3366ff;
+  }
+  
+ .meni a {     /* ovde odredjujemo izgled linkova koji se upisuju u uspravni meni */
+   float:left;
+   text-decoration:none;
+   padding:15px;
+   background-color:#3366ff;
+   font-style:bold;
+   color:white;
+   border-right:2px solid white;
+}
+
+.meni a.aktivno {
+   float:left;
+   text-decoration:none;
+   padding:15px;
+   background-color:red;
+   font-style:bold;
+   color:white;
+   border-right:2px solid white;
+	
+}
+.meni a:hover{    /* ovde odredjujemo sta se desava kada misem predjemo preko linka */
+  background-color: #000099;
+  color: white;
+  }
+
+  
+.sredina_strane {
+  float:left;
+  width:75%;
+  padding:25px;
+  margin-top:15px;
+  background-color:white;
+  height:100%;
+  border-right:4px solid #ccc;
+
+  }
+.desno{
+	 box-sizing:border-box;
+	 float:left;
+	 width:24%;
+	 margin-top:15px;
+	 margin-left:1%;
+	 background-color:white;
+	 height:100%;
+	 padding:10px;
+	 border-right:4px solid #ccc;
+	 
+ }
+ 
+ .sredina_strane img {
+	 width:70%;
+	 float:right;
+	 margin:10px;
+	
+ }
+ .desno img{
+	 width:90%;
+	 margin:7px;
+ }
+ .desno img:hover{
+	 border:5px solid #3366ff;
+ }
+ 
+ p {
+	 text-align: justify;
+	 
+ }
+ 
+ .desno a{
+	 text-decoration:none;
+ }
+  
